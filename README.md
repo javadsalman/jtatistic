@@ -2,7 +2,7 @@
 ## BASIC USAGE
 ```python3
 # ------------------- Code ------------------- #
-data =   [ random.randint(1, 10)  for i in range(10)]
+data = [ random.randint(1, 10)  for i in range(10)]
 dataset = Dataset(data)
 print(data)
 print(dataset)
@@ -19,11 +19,11 @@ dataset.coefficient=0.41185585651817974
 ```python3
 # ------------------- Code ------------------- #
 l = [1,2,3,4,5,6]
-    v = [i*2 for i in l]
-    dl = Dataset(l)
-    dv = Dataset(v)
-    print(f'{dl.variance=} {dv.variance=}')
-    print(f'{dl.coefficient=} {dv.coefficient=}')
+v = [i*2 for i in l]
+dl = Dataset(l)
+dv = Dataset(v)
+print(f'{dl.variance=} {dv.variance=}')
+print(f'{dl.coefficient=} {dv.coefficient=}')
 
 # ------------------- Output ------------------- #
 dl.variance=3.5 dv.variance=14.0
